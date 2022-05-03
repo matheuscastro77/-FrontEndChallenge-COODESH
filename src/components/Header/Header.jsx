@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
-import { H2, Img, Main, ContainerLogo, Container, H4 } from './styled'
+import { H1, Img, Main, ContainerLogo, Container, H4 } from './styled'
 
 const Header = () => {
   return (
     <Main>
         <ContainerLogo>
         <Img src={logo} alt='logo'/>
-        <H2>Pharma</H2>
+        <H1>Pharma</H1>
         </ContainerLogo>
         <Container>
         <H4>About Us</H4>

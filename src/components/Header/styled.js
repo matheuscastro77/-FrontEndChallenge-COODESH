@@ -9,36 +9,6 @@ export const Main = styled.div `
     background-color: #f3f7fa;
 `
 
-export const H4 = styled.button `
-    font-weight: 200;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: #12b80f;
-    background-color: transparent;
-    border: 0px;
-    :hover {
-        cursor: pointer;
-    }
-
-    @media screen and (max-width: 1024px){
-        font-size: 0.9rem;
-    }
-`
-
-export const Container = styled.h4 `
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    height: 3vh;
-    align-items: center;
-    width: 12%;
-    justify-content: space-between;
-
-    @media screen and (max-width: 1024px){
-        width: 15%;
-    }
-`
-
 export const ContainerLogo = styled.div`
     display: flex;
     flex-direction: row;
@@ -54,9 +24,48 @@ export const Img = styled.img `
     margin-right: 3%;
 `
 
-export const H2 = styled.h1 `
+export const H1 = styled.h1 `
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color: #12b80f;
+`
+
+export const Container = styled.h4 `
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    height: 3vh;
+    align-items: center;
+    width: 12%;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px){
+        width: 15%;
+    }
+
+    @media screen and (max-width: 1600px){
+        width: 15%;
+    } 
+`
+
+export const H4 = styled.button `
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #12b80f;
+    background-color: transparent;
+    border: 0px;
+    :hover {
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 1024px){
+        font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 1366px){
+        font-size: 0.9rem;
+    }
+    
 `

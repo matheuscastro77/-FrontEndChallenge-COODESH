@@ -19,17 +19,23 @@ export const Container = styled.div`
     width: 60%;
     height: 65vh;
 
-    @media screen and (max-width: 1366px){
+    @media screen and (max-width: 1600px){
         width: 70%;
-  }
+        height: 70vh;
+    }
 
-  @media screen and (max-width: 1280px){
-    height: 70vh;
-  }
+    @media screen and (max-width: 1366px){
+        width: 80%;
+        height: 80vh;
+    }
+
+    @media screen and (max-width: 1280px){
+        height: 85vh;
+    }
 
   @media screen and (max-width: 1024px){
-    width: 90%;
-  }
+        width: 90%;
+    }
 `
 
 export const Button = styled.button`
@@ -46,24 +52,6 @@ export const Button = styled.button`
     }
 `
 
-export const ContainerDetails = styled.div`
-    width: 31%;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 30vh;
-`
-
-export const ContainerMain = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-
 export const ContainerPicName = styled.div`
     display: flex;
     flex-direction: column;
@@ -76,6 +64,32 @@ export const ContainerPicName = styled.div`
 export const Img = styled.img`
     width: 50%;
     border-radius: 50%;
+`
+
+export const H2 = styled.h2`
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(18, 184, 15) 0px 0px 10px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+`
+
+export const ContainerMain = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const ContainerDetails = styled.div`
+    width: 31%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 30vh;
 `
 
 export const Tittle = styled.h2`
@@ -92,6 +106,10 @@ export const ContainerInfo = styled.div`
     min-height: 17.5vh;
     margin-left: 8%;
     width: 90%;
+
+    @media screen and (max-width: 1366px){
+        min-height: 20.5vh;
+    }
 `
 
 export const P = styled.p`
@@ -101,19 +119,19 @@ export const P = styled.p`
     margin-left: 3%;
     font-size: 1.1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    @media screen and (max-width: 1366px){
+        font-size: 1rem;
+    }
 `
 
 export const Text = styled.div`
     display: flex;
     align-items: center;
-    height: 4vh;
+    height: 4vh;    
+    margin-top: 2%;
+    
 `
 
-export const H2 = styled.h2`
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: rgba(18, 184, 15) 0px 0px 10px;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-`
+
 

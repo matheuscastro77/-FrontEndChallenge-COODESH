@@ -3,7 +3,7 @@ import HeaderClients from '../../components/HeaderClients/HeaderClients'
 import GlobalStateContext from '../../context/GlobalStateContext'
 import moment from 'moment'
 import ManageSearchIcon from '@mui/icons-material/ManageSearch'; import ClientDetail from '../../components/ClientDetail/ClientDetail'
-import { Button, ButtonPag, configImg, DivError, Container, ContainerButton, DivButton, DivList, DivTittles, H2, Main, Input, ContainerInfos, ButtonSearch, ContainerSearch, ContainerSearchTittle } from './styled'
+import { Button, ButtonPag, configImg, P, DivError, Container, ContainerButton, DivButton, DivList, DivTittles, H2, Main, Input, ContainerInfos, ButtonSearch, ContainerSearch, ContainerSearchTittle } from './styled'
 import axios from 'axios';
 import { BASE_URL } from '../../constants/url';
 import loading from '../../assets/loading.gif'
@@ -87,17 +87,17 @@ const ListClients = () => {
               return (
                 <ContainerInfos key={client.cell}>
                   <DivList>
-                    <p>{client.name.first} {client.name.last}</p>
+                    <P>{client.name.first} {client.name.last}</P>
                   </DivList>
                   <DivList>
-                    <p>{client.gender[0].toUpperCase() + client.gender.slice(1)}</p>
+                    <P>{client.gender[0].toUpperCase() + client.gender.slice(1)}</P>
 
                   </DivList>
                   <DivList>
-                    <p>{moment(client.dob.date).format("DD/MM/YYYY")}</p>
+                    <P>{moment(client.dob.date).format("DD/MM/YYYY")}</P>
                   </DivList>
                   <DivList>
-                    <p>{client.location.country}</p>
+                    <P>{client.location.country}</P>
                   </DivList>
                   <DivButton>
                     <Button onClick={() => modal(client)}>Details</Button>

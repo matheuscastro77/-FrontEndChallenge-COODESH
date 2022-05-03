@@ -3,9 +3,13 @@ import styled from 'styled-components'
 export const Main = styled.div`
   display: flex;
   flex-direction: row;
-  height: 91.84vh;
+  height: 91.8vh;
   overflow-y: hidden;
   overflow-x: hidden;
+
+  @media screen and (max-width: 1600px){
+    height: 91.8vh;
+  }
 
   @media screen and (max-width: 1366px){
     height: 91.7vh;
@@ -14,6 +18,12 @@ export const Main = styled.div`
   @media screen and (max-width: 1024px){
     height: 91.8vh;
   }
+
+  @media screen and (max-width: 414px){
+    height: 113vh;
+    width: 100%;
+  }
+  
 `
 export const ContainerTitles = styled.div`
   background-color: #f3f7fa;
@@ -22,10 +32,17 @@ export const ContainerTitles = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1600px){
+    width: 62.46%;
+  }
+
 `
 
 export const Person = styled.div`
+  min-width: 39.4%;
   background-color: #f3f7fa;
+  
 `
 
 export const Img = styled.img`
@@ -43,6 +60,10 @@ export const Img = styled.img`
 
   @media screen and (max-width: 1024px){
     width: 87%; 
+  }
+
+  @media screen and (max-width: 414px){
+    display: none;
   }
 `
 

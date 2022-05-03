@@ -5,12 +5,12 @@ import { useNavigate } from 'react-router-dom';
 import moment from "moment";
 import loading from '../../assets/loading.gif'
 import { LocationCity, Phone, WhatsApp, MailOutline, Female, PersonOutline, Male, Cake, Flag, LocationOn, Signpost, Contacts, AssignmentInd } from '../../constants/icons';
-import { Container, Div, Button, Main, H2, Img, Tittle, P, Text, ContainerInfo, ContainerDetails, ContainerPicName, ContainerMain } from './styled'
+import { Container, Div, Button, Main, H2, Img, Tittle, P, Text, ContainerInfo, ContainerDetails, ContainerPicName, ContainerMain, configImg, DivError } from './styled'
 
 
 export default function ClientPage() {
 
-  const { clients } = useContext(GlobalStateContext)
+  const { clients, error } = useContext(GlobalStateContext)
 
   const navigate = useNavigate()
 
@@ -68,7 +68,7 @@ export default function ClientPage() {
 
             </Div>
           }
-        }) : <img src={loading} />}
+        }) : <DivError><img style={configImg} src={loading}/> {error} </DivError>}
       </Main>
     </>
   )

@@ -1,60 +1,8 @@
 import styled from 'styled-components'
 
-export const DivList = styled.div`
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid black;
-  width: 200px;
-  text-align: center;
-  font-size: 1rem;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-  
-  @media screen and (max-width: 1366px){
-    height: 5vh;
-  }
-
-  @media screen and (max-width: 1024px){
-    width: 150px;
-  }
-`
-
 export const Main = styled.div`
   background-color: #f3f7fa; 
   min-height: 100vh;
-`
-
-export const H2 = styled.h2`
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: #12b80f;
-  width: 110px;
-
-  @media screen and (max-width: 1366px){
-    font-size: 1.3rem;
-  }
-
-  @media screen and (max-width: 1024px){
-    font-size: 1.2rem;
-  }
-`
-
-export const Input = styled.input`
-  width: 120px;
-  height: 1.8vh;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 0px 0px 0px 10px;
-  outline: 0px;
-`
-
-export const ButtonSearch = styled.button`
-  background-color: #f3f7fa;
-  border: none;
-  color:  #12b80f;
-  :hover{
-    cursor: pointer;
-  }
 `
 
 export const Container = styled.div`
@@ -80,50 +28,104 @@ export const Container = styled.div`
   }
 `
 
-export const ContainerButton =  styled.div`
+export const DivTittles = styled.div`
   display: flex;
-  justify-content: space-between;
-  width: 20%;
-  margin: 0% auto;
-`
-
-export const Button = styled.button`
-  height: 2.5vh;
-  background-color: #f3f7fa;
-  border: 1px solid gray;
-  width: 45%;
-  :hover{
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-`
-
-export const ButtonPag = styled.button`
-  height: 2.5vh;
-  background-color: #f3f7fa;
-  border: 1px solid gray;
-  width: 27%;
-  :hover{
-    cursor: pointer;
-    transform: scale(1.1);
-  }
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
 
   @media screen and (max-width: 1600px){
-    height: 3vh;
-    width: 32%;
-  }
-
-  @media screen and (max-width: 1366px){
-    width: 38%;
+    height: 8.7vh;
   }
 
   @media screen and (max-width: 1280px){
-    width: 40%;
+    height: 10.5vh;
+  }
+`
+
+export const ContainerSearch = styled.div`
+  min-height: 9vh;
+`
+
+export const ContainerSearchTittle = styled.div`
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+`
+
+export const H2 = styled.h2`
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #12b80f;
+  width: 110px;
+
+  @media screen and (max-width: 1366px){
+    font-size: 1.3rem;
   }
 
   @media screen and (max-width: 1024px){
-    width: 45%;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+  }
+`
+
+export const ButtonSearch = styled.button`
+  background-color: #f3f7fa;
+  border: none;
+  color:  #12b80f;
+  :hover{
+    cursor: pointer;
+  }
+`
+
+export const Input = styled.input`
+  width: 120px;
+  height: 1.8vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0px 0px 0px 10px;
+  outline: 0px;
+`
+
+
+export const ContainerInfos = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+export const DivList = styled.div`
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  
+  @media screen and (max-width: 1024px){
+    width: 150px;
+  }
+
+  @media screen and (max-width: 1280px){
+    width: 185px;
+  }
+  
+  @media screen and (max-width: 1600px){
+    height: 5vh;
+  }
+
+  @media screen and (max-width: 1768px){
+    height: 5vh;
+  }
+`
+
+export const P = styled.p`
+  font-size: 1rem;
+
+  @media screen and (max-width: 1366px){
+    font-size: 0.9rem;
   }
 `
 
@@ -136,29 +138,18 @@ export const DivButton = styled.div`
   align-items: center;
 `
 
-export const DivTittles = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  justify-content: space-around;
-
-  @media screen and (max-width: 1366px){
-    height: 8.7vh;
-  }
-`
-
-export const ContainerSearch = styled.div`
-  min-height: 9vh;
-`
-export const ContainerSearchTittle = styled.div`
-  height: 6vh;
+export const Button = styled.button`
+  height: 3vh;
+  background-color: #f3f7fa;
+  border: 1px solid gray;
+  width: 45%;
   display: flex;
   justify-content: center;
-`
-
-export const ContainerInfos = styled.div`
-  display: flex;
-  flex-direction: row;
+  text-align: center;
+  :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
 `
 
 export const DivError = styled.div`
@@ -176,3 +167,63 @@ export const configImg = {
   "width": "35%",
   "height": "28vh"
 }
+
+export const ContainerButton =  styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 0% auto;
+`
+
+export const ButtonPag = styled.button`
+  height: 2.5vh;
+  background-color: #f3f7fa;
+  border: 1px solid gray;
+  width: 27%;
+  :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 1600px){
+    height: 3vh;
+    width: 32%;
+  }
+
+  @media screen and (max-width: 1280px){
+    width: 40%;
+  }
+
+  @media screen and (max-width: 1024px){
+    width: 45%;
+    font-size: 0.7rem;
+  }
+
+  @media screen and (max-width: 1768px){
+    width: 39%;
+    font-size: 0.8rem;
+    height: 3.2vh;
+  }
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
