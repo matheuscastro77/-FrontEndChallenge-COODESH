@@ -21,13 +21,13 @@ colocar link
 ---
 ## Website
 ### Home
-![home](https://user-images.githubusercontent.com/94663972/158402424-43469ade-f3fc-404e-bd73-3452fa7e8a05.png)
+![Home](https://user-images.githubusercontent.com/94663972/166521588-c4d11eed-62eb-45c8-a760-527f17c88a76.png)
 ### Clients
-![pokemonPage](https://user-images.githubusercontent.com/94663972/158402432-820467bc-436f-437a-9d27-acb934b309ce.png)
+![list Clients](https://user-images.githubusercontent.com/94663972/166521595-96ca097f-3003-4109-90b8-51dd6f85a85c.png)
 ### Client Detail
-![Pokedex](https://user-images.githubusercontent.com/94663972/158402440-5b9b25e8-c00f-4044-997d-18d39faff12b.png)
+![client detail](https://user-images.githubusercontent.com/94663972/166521599-175aacdf-005c-4bbb-95bd-726e3be9da0d.png)
 ### Client Page
-![DetailsPage](https://user-images.githubusercontent.com/94663972/158402436-0de47fc3-cf07-41e6-bf43-7e38b1f028f9.png)
+![client page](https://user-images.githubusercontent.com/94663972/166521602-a85ca580-9414-4179-b4a6-bf94822420e5.png)
 
 ## List with language, framework and/or technologies used
 <ul>
@@ -53,4 +53,3 @@ Visual Studio Code
       
 ## 3 - Starting the project
 	- npm run start
-   
