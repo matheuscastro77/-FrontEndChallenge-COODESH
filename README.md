@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h2 align="center"> 
+	Front-end Challenge Coodesh - Pharma
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Individual project
 
-## Available Scripts
+## Link
+[Link](https://pharma-codesh.vercel.app/)
 
-In the project directory, you can run:
+## Functionalities
 
-### `npm start`
+- [x] `Home` → Site presentation page, with a button to join the main page. 
+- [x] `Clients` → List of all customers, 12 at a time.
+- [x] `Client Detail` → Clicking on "DETAILS" opens a modal with patient information. 
+- [x] `Pagination` → Button to switch pages according to your need.
+- [x] `Filter` → Filter customers by name, gender and nationality.
+- [x] `Share link` → Share link (URL). When clicking on the details of a specific customer, a new url is generated, and it is possible to share
+- [x] `Client Page` → Page opened from shared customer url.
+- [ ] `Responsive`→ Not mobile responsive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Website
+### Home
+![Home](https://user-images.githubusercontent.com/94663972/166848252-dd2513ea-5b1e-4f16-976f-e26d620e3e0e.png)
+### Clients
+![list Clients](https://user-images.githubusercontent.com/94663972/166848256-13e27876-266b-4ad7-8335-210325cca2e4.png)
+### Client Detail
+![client detail](https://user-images.githubusercontent.com/94663972/166848257-79d87e06-8dfd-4f06-8fe2-e6e365368066.png)
+### Client Page
+![client page](https://user-images.githubusercontent.com/94663972/166521602-a85ca580-9414-4179-b4a6-bf94822420e5.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## List with language, framework and/or technologies used
+<ul>
+	<li>HTML, CSS AND JAVASCRIPT</li>
+	<li>React</li>
+	<li>Route System</li>
+	<li>Styled-Components</li>
+	<li>Material-UI</li>
+</ul>
+ 
+## IDE
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Visual Studio Code
 
-### `npm run eject`
+## How to use the project with NPM
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 1 - Clone the repository
+	- git clone https://github.com/matheuscastro77/-FrontEndChallenge-CODESH.git
+## 2 - Install the dependencies and start the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 2.1 - Install dependencies:
+       - npm install
+      
+## 3 - Starting the project
+	- npm run start
