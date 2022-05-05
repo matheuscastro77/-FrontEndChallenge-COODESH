@@ -10,7 +10,7 @@
 ## Functionalities
 
 - [x] `Home` → Site presentation page, with a button to join the main page. 
-- [x] `Clients` → Lista de todos os clientes, 12 por vez.
+- [x] `Clients` → List of all customers, 12 at a time.
 - [x] `Client Detail` → Clicking on "DETAILS" opens a modal with patient information. 
 - [x] `Pagination` → Button to switch pages according to your need.
 - [x] `Filter` → Filter customers by name, gender and nationality.
