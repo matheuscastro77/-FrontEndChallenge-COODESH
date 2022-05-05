@@ -13,19 +13,24 @@
 - [x] `Clients` → Lista de todos os clientes, 12 por vez.
 - [x] `Client Detail` → Clicking on "DETAILS" opens a modal with patient information. 
 - [x] `Pagination` → Button to switch pages according to your need.
-- [x] `Filter` → Filter customers by name.
+- [x] `Filter` → Filter customers by name, gender and nationality.
 - [x] `Share link` → Share link (URL). When clicking on the details of a specific customer, a new url is generated, and it is possible to share
 - [x] `Client Page` → Page opened from shared customer url.
 - [ ] `Responsive`→ Not mobile responsive.
 
 ---
+
+
+
+
+
 ## Website
 ### Home
-![Home](https://user-images.githubusercontent.com/94663972/166521588-c4d11eed-62eb-45c8-a760-527f17c88a76.png)
+![Home](https://user-images.githubusercontent.com/94663972/166848252-dd2513ea-5b1e-4f16-976f-e26d620e3e0e.png)
 ### Clients
-![list Clients](https://user-images.githubusercontent.com/94663972/166521595-96ca097f-3003-4109-90b8-51dd6f85a85c.png)
+![list Clients](https://user-images.githubusercontent.com/94663972/166848256-13e27876-266b-4ad7-8335-210325cca2e4.png)
 ### Client Detail
-![client detail](https://user-images.githubusercontent.com/94663972/166521599-175aacdf-005c-4bbb-95bd-726e3be9da0d.png)
+![client detail](https://user-images.githubusercontent.com/94663972/166848257-79d87e06-8dfd-4f06-8fe2-e6e365368066.png)
 ### Client Page
 ![client page](https://user-images.githubusercontent.com/94663972/166521602-a85ca580-9414-4179-b4a6-bf94822420e5.png)
 
