@@ -10,13 +10,25 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  margin: 1.5% auto;
+  width: 65%;
+  margin: 0.8% auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+  @media screen and (max-width: 1768px){
+    width: 65%;
+  }
+
+  @media screen and (max-width: 1680px){
+    width: 78%;
+  }
+
   @media screen and (max-width: 1600px){
-    width: 70%;
+    width: 80%;
+  }
+
+  @media screen and (max-width: 1440px){
+    width: 80%;
   }
 
   @media screen and (max-width: 1366px){
@@ -26,32 +38,55 @@ export const Container = styled.div`
   @media screen and (max-width: 1024px){
     width: 85%;
   }
+  
 `
 
 export const DivTittles = styled.div`
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 88%;
   justify-content: space-around;
 
+  @media screen and (max-width: 1768px){
+    width: 100%;
+  }
+
   @media screen and (max-width: 1600px){
-    height: 8.7vh;
+    height: 13.5vh;
+  }
+
+  @media screen and (max-width: 1440px){
+    height: 13.5vh;
+  }
+
+   @media screen and (max-width: 1366px){
+    height: 13.5vh;
   }
 
   @media screen and (max-width: 1280px){
-    height: 10.5vh;
+    height: 13.5vh;
+  } 
+
+  @media screen and (max-width: 1152px){
+    width: 90%;
+  }
+
+  @media screen and (max-width: 1024px){
+    width: 95%;
+  }
+
+  @media screen and (max-height: 720px){
+    height: 14.5vh;
+  } 
+
+  @media screen and (max-height: 664px){
+    height: 16vh;
+    width: 90%;
   }
 `
 
-export const ContainerSearch = styled.div`
+export const ContainerTittle = styled.div`
   min-height: 9vh;
-`
-
-export const ContainerSearchTittle = styled.div`
-  height: 6vh;
-  display: flex;
-  justify-content: center;
-  text-align: start;
 `
 
 export const H2 = styled.h2`
@@ -59,7 +94,7 @@ export const H2 = styled.h2`
   font-size: 1.5rem;
   font-weight: 400;
   color: #12b80f;
-  width: 110px;
+  width: 90px;
 
   @media screen and (max-width: 1366px){
     font-size: 1.3rem;
@@ -70,28 +105,52 @@ export const H2 = styled.h2`
   }
 `
 
-export const ButtonSearch = styled.button`
-  background-color: #f3f7fa;
-  border: none;
-  color:  #12b80f;
-  :hover{
-    cursor: pointer;
+export const Input = styled.input`
+  width: 120px;
+  height: 2vh;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 0px 0px 0px 10px;
+  outline: 0px;
+
+  @media screen and (max-width: 1440px){
+    height: 2.5vh;
+  }
+
+  @media screen and (max-width: 1366px){
+    height: 2.5vh;
+  }
+
+  @media screen and (max-width: 1176px){
+    height: 3vh;
   }
 `
 
-export const Input = styled.input`
+export const Select = styled.select`
   width: 120px;
-  height: 1.8vh;
-  border-radius: 10px;
-  border: 1px solid black;
+  height: 2vh;
+  border-radius: 2px;
+  border: 1px solid gray;
   padding: 0px 0px 0px 10px;
   outline: 0px;
-`
 
+  @media screen and (max-width: 1440px){
+    height: 3vh;
+  }
+
+  @media screen and (max-width: 1366px){
+    height: 3vh;
+  }
+
+  @media screen and (max-width: 1176px){
+    height: 3.5vh;
+  }
+`
 
 export const ContainerInfos = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
 `
 
 export const DivList = styled.div`
@@ -99,26 +158,43 @@ export const DivList = styled.div`
   flex-direction: column;
   border-top: 1px solid black;
   justify-content: center;
-  width: 200px;
+  width: 230px;
   text-align: center;
   font-size: 1rem;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   
-  @media screen and (max-width: 1024px){
-    width: 150px;
+  @media screen and (max-width: 1680px){
+    width: 268px;
+  }
+
+  @media screen and (max-width: 1600px){
+    width: 255px;
+  }
+
+  @media screen and (max-width: 1440px){
+    width: 225px;
+  }
+
+  @media screen and (max-width: 1366px){
+    width: 212px;
   }
 
   @media screen and (max-width: 1280px){
-    width: 185px;
-  }
-  
-  @media screen and (max-width: 1600px){
-    height: 5vh;
+    width: 192px;
   }
 
-  @media screen and (max-width: 1768px){
-    height: 5vh;
+  @media screen and (max-width: 1176px){
+    width: 180px;
   }
+
+  @media screen and (max-width: 1152px){
+    width: 175px;
+  }
+
+  @media screen and (max-width: 1024px){
+    width: 150px;
+  }
+  
 `
 
 export const P = styled.p`
@@ -145,7 +221,7 @@ export const Button = styled.button`
   width: 45%;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   :hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -173,6 +249,7 @@ export const ContainerButton =  styled.div`
   justify-content: space-between;
   width: 20%;
   margin: 0% auto;
+  padding-bottom: 10px;
 `
 
 export const ButtonPag = styled.button`
@@ -185,28 +262,42 @@ export const ButtonPag = styled.button`
     transform: scale(1.1);
   }
 
+  @media screen and (max-width: 1768px){
+    width: 39%;
+    font-size: 0.8rem;
+    height: 3.2vh;
+  }
+
   @media screen and (max-width: 1600px){
     height: 3vh;
     width: 32%;
+  }
+
+  @media screen and (max-width: 1440px){
+    height: 3vh;
+    width: 36%;
+  }
+
+  @media screen and (max-width: 1366px){
+    height: 3vh;
+    width: 38%;
   }
 
   @media screen and (max-width: 1280px){
     width: 40%;
   }
 
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1176px){
     width: 45%;
     font-size: 0.7rem;
   }
 
-  @media screen and (max-width: 1768px){
-    width: 39%;
-    font-size: 0.8rem;
-    height: 3.2vh;
+  @media screen and (max-width: 1024px){
+    width: 45%;
+    font-size: 0.7rem;
   }
 `
-
-
+  
 
 
 

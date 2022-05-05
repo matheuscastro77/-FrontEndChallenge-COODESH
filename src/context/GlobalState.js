@@ -8,8 +8,9 @@ const GlobalState = (props) => {
     const [allClients, setAllClients] = useState([])
     const [pagination, setPagination] = useState(1)
     const [isModalVisible, setIsModalVisible] = useState(false)
-    const [search, setSearch] = useState('')
-    const [input, setInput] = useState(false)
+    const [searchName, setSearchName] = useState('')
+    const [searchCountry, setSearchCountry] = useState('')
+    const [selectGender, setSelectGender] = useState('')
     const [error, setError] = useState('')
 
     const GetClients = () => {
@@ -34,7 +35,7 @@ const GlobalState = (props) => {
 
    
     return (
-        <GlobalStateContext.Provider value ={{clients, error, setError,  input, setInput, setClients, pagination, setPagination, isModalVisible, setIsModalVisible, search, setSearch, allClients, setAllClients}}>
+        <GlobalStateContext.Provider value ={{clients, error, setError, selectGender, setSelectGender, searchCountry, setSearchCountry, setClients, pagination, setPagination, isModalVisible, setIsModalVisible, searchName, setSearchName, allClients, setAllClients}}>
             {props.children}
         </GlobalStateContext.Provider> 
     )
