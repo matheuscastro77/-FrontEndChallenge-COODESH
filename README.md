@@ -5,7 +5,7 @@
 ## Individual project
 
 ## Link
-[Link](https://vercel.com/matheuscastro77/coodesh-pharma)
+[Link](https://coodesh-pharma.vercel.app/)
 
 ## Functionalities
 
